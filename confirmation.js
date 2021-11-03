@@ -24,7 +24,7 @@ document.getElementById('result').innerText = `$${Math.round(result)}`;
 document.querySelector("h1").innerText = `Salary Slip for ${name}`
 
 let funct2 = ()=>{
-    location.href ='http://127.0.0.1:5500/index.html';
+    location.href ='/CalculateNetSalary/index.html';
 }
 
 back.addEventListener('click',funct2)
