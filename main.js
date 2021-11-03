@@ -103,7 +103,7 @@ let funct1 = (event)=>{
                     alert("Dependants cannot have negative value")
                 }
                 else{
-                    location.href ='http://127.0.0.1:5500/confirmation.html';
+                    location.href ='/CalculateNetSalary/confirmation.html';
                 }
             }
         }
