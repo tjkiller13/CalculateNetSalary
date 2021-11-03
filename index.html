@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Assignment 1 - Net Salary Calculator</title>
+            <link rel="stylesheet" href="index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="container" id="container">
+                <div class="header">
+                    <h1 id="heading">Calculate Net Salary</h1>
+                </div><br>
+                <div class="section">
+                    <form action="">
+                        <div class="sectionItem">
+                            <div><b class="label">Full Name: </b></div><div><input class="inputText" type="text" id="name" placeholder="Enter your name"></div>
+                        </div><br>
+                        <div class="sectionItem">
+                            <b class="label">Gross Salary: </b><input class="inputNumber" type="number" id="salary" placeholder="$">
+                        </div><br>
+                        <div class="sectionItem">
+                            <b class="label">EI: </b><input class="inputPercent" type="number" id="ei" min="0" max="100" step="1" placeholder="%">
+                        </div><br>
+                        <div class="sectionItem">
+                            <b class="label">CPP: </b><input class="inputPercent" type="number" id="cpp" min="0" max="100" step="1" placeholder="%">
+                        </div><br>
+                        <div class="sectionItem">
+                            <b class="label">Gender: </b>  
+                            <i>Male</i><input class = "radio" type="radio" name="gender" id="male" value="Male" checked>
+                            <i>Female</i><input class = "radio"type="radio" name="gender" id="female" value="Female">
+                            <i>Other</i><input class = "radio" type="radio" name="gender" id="other" value="Other">
+                        </div><br>
+                        <div class="sectionItem">
+                            <b class="label" id="dep">Number of Dependants: </b><input class="inputNumberSmall" type="number" id="dependants" min="0" max="4" step="1" placeholder="max 4">
+                        </div><br>
+                        <div id="btn" class="sectionItem">
+                            <button id="btn">Submit</button>
+                        </div>
+                </form>
+            </div>
+        </body>
+        <!-- <script src="index.js"></script> -->
+        <script src="main.js"></script>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Slip</title>
+    <link rel="stylesheet" href="confirmation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Salary Slip</h1>
+        </div>
+        <div class="section">
+            <div class="sectionItem">
+                <div class="label">Gross Salary: </div>
+                <div class="value" id="salary"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">EI: </div>
+                <div class="value" id="ei"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">CPP: </div>
+                <div class="value" id="cpp"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">Tax: </div>
+                <div class="value" id="tax"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">Allowance: </div>
+                <div class="value" id="allowance"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">Bonus: </div>
+                <div class="value" id="bonus"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">Gender: </div>
+                <div class="value" id="gender"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">Dependants: </div>
+                <div class="value" id="dependants"></div>
+            </div>
+            <div class="sectionItem">
+                <div class="label">Net Salary: </div>
+                <div class="value" id="result"></div>
+            </div>
+        </div>
+    </div>
+    <div class="back">
+        <button id="btn">Back</button>
+    </div>
+    <div class="legend">
+        <fieldset>
+            <legend>Information</legend>
+            <p>Income Tax deductions due to dependants:-<br>
+                1. 3 dependants - 2% <br>
+                2. 4 dependants - 4%
+                <hr>
+            </p>
+            <div id="depInfo"></div><br>
+            <hr>
+            <div id="taxInfo"></div>
+            <hr>
+            <div id="genderInfo"></div>
+        </fieldset>
+    </div>
+</body>
+<script src="confirmation.js"></script>
+
+</html>

@@ -1,0 +1,89 @@
+body{
+    background-color: turquoise;
+}
+.container{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height:30%;
+    margin: auto auto;
+    background-color: yellow;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.sectionItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1%
+}
+
+.section{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+
+
+
+#btn{
+    width: 80px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    margin-top: 1%;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    font-family: 'Press Start 2P', cursive;
+    align-items: center;
+    width: auto;
+    overflow: hidden;
+}
+
+
+
+.legend{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+
+
+
+@media only screen and (max-width: 1280px){
+
+    .sectionItem{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 30%;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    .section{
+        margin-top: 2%;
+    }
+
+    .header{
+        align-items: center;
+        font-size: 40%;
+    }
+    
+    .value{
+        margin-top:4%
+    }
+}

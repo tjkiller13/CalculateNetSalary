@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+}
+.container{
+    border: 2px solid white;
+    width: 62%;
+    /* height: 50%; */
+    
+    margin: 45px auto;
+    background-color: black;
+    color: black;
+    /* background-color: black;
+    color: white */
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+.header{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+
+.sectionItem{
+    display:flex;
+    /* align-self: center; */
+    margin: 11px;
+    justify-content: center;
+    width: 40vw;
+}
+input{
+    margin-left: 8px;
+}
+
+i{
+    margin-left: 8px;
+    
+}
+
+input.radio{
+    margin-left:1px;
+}
+
+#btn{
+    cursor: pointer;
+    border-radius: 9px;
+    width: 80px;
+    margin: auto;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+input.inputNumber{
+    width:100px;
+}
+
+input.inputNumberSmall{
+    width: 50px;
+}
+
+input.inputText{
+    width: 300px;
+}
+
+b{
+    margin-left:0px;
+}
+
+
+/* input#ei{
+    margin-left: 71px;
+}
+
+input#tax{
+    margin-left: 64px;
+}
+
+input#allowance{
+    margin-left: 20px;
+}
+
+input#male{
+    margin-left: 16px;
+} */
+
+
+
+
+    
+@media only screen and (max-width: 1280px){
+
+    .sectionItem{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input#name{
+        width:80%
+    }
+    
+}
+        
